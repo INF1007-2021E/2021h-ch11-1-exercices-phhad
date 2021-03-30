@@ -13,12 +13,11 @@ import utils
 class Weapon:
 	"""
 	Une arme dans le jeu.
-
 	:param name: Le nom de l'arme
 	:param power: Le niveau d'attaque
 	:param min_level: Le niveau minimal pour l'utiliser
 	"""
-
+	def __init__(self, name,
 	UNARMED_POWER = 20
 
 
